@@ -1,0 +1,44 @@
+.LandingBody {
+  background: rgb(21, 35, 125);
+  background: linear-gradient(30deg, #63b660, #4a80f5);
+  display: flex;
+  justify-content: center;
+  padding: 1vw;
+}
+
+#LandingWelcome {
+  color: rgb(53, 42, 42);
+  font-family: serif;
+}
+
+.kiribati-float {
+  margin: 5vw 0 0 25vw;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.kiribati-float > img {
+  width: 20vw;
+}
+
+.kiribati-float > p {
+  margin: 6vw 0 0 2vw;
+  font-size: 2em;
+  color: rgb(23, 53, 89);
+}
+
+.seychelles-float {
+  margin: 5vw 25vw 0 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.seychelles-float > img {
+  width: 20vw;
+}
+
+.seychelles-float > p {
+  margin: 6vw 2vw 0 0;
+  font-size: 2em;
+  color: rgb(23, 53, 89);
+}
