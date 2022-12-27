@@ -1,13 +1,22 @@
-.LandingBody {
-  background: rgb(21, 35, 125);
-  background: linear-gradient(30deg, #63b660, #4a80f5);
-  display: flex;
-  justify-content: center;
-  padding: 1vw;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-#LandingWelcome {
-  color: rgb(53, 42, 42);
+.main {
+  background: rgb(46, 109, 61);
+  background: radial-gradient(
+    circle,
+    rgb(48, 103, 61) 23%,
+    rgba(0, 62, 142, 1) 100%
+  );
+}
+
+.LandingNav {
+  display: flex;
+  justify-content: center;
+  /* padding: 15vw; */
+  color: rgb(255, 253, 253);
   font-family: serif;
 }
 
@@ -24,7 +33,7 @@
 .kiribati-float > p {
   margin: 6vw 0 0 2vw;
   font-size: 2em;
-  color: rgb(23, 53, 89);
+  color: rgb(255, 255, 255);
 }
 
 .seychelles-float {
@@ -40,5 +49,66 @@
 .seychelles-float > p {
   margin: 6vw 2vw 0 0;
   font-size: 2em;
-  color: rgb(23, 53, 89);
+  color: rgb(255, 255, 255);
+}
+.FlagForLoginReg {
+  background-image: url(../img/FlagsForLoginReg.webp);
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  margin-top: 17vw;
+  transform: translate(-50%, -50%);
+  background-size: 22vw 100%;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 1),
+    0 0 20px rgba(255, 255, 255, 0.524);
+  animation: animateFlag 15s infinite linear;
+}
+
+.FlagForLoginReg2 {
+  background-image: url(../img/FlagsForLoginReg.webp);
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  margin: 17vw 0 0 22vw;
+
+  transform: translate(-50%, -50%);
+  background-size: 22vw 100%;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 1),
+    0 0 20px rgba(255, 255, 255, 0.524);
+  animation: animateFlag 15s infinite linear;
+}
+
+@keyframes animateFlag {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: 780px;
+  }
+}
+
+.Login {
+  margin-top: 5vw;
+}
+
+#Reg {
+  margin-top: 5vw;
+  margin-left: 20vw;
+}
+
+svg > path {
+  fill: #00394f;
+  stroke: #eee;
+  stroke-width: 0.25;
+}
+
+svg > path:hover {
+  fill: url(../img/countriesbg.png);
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+svg {
+  width: 90vw;
+  /* margin-right: 20vw; */
 }
