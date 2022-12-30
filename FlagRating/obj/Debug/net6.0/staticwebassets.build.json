@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+HUG4f3WVIgk3izq0Lyz5xn+R8NiJPT+YrvWtLLXw6E=",
+  "Hash": "EBdAlNue80avAZyPhfwYfnlyyZoe9QsKhQARNTlKO+k=",
   "Source": "FlagRating",
   "BasePath": "_content/FlagRating",
   "Mode": "Default",
@@ -117,23 +117,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\FlagsForLoginReg.webp"
-    },
-    {
-      "Identity": "C:\\Users\\nervo\\Desktop\\FlagRatingProject\\FlagRating\\wwwroot\\img\\Untitled.png",
-      "SourceId": "FlagRating",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nervo\\Desktop\\FlagRatingProject\\FlagRating\\wwwroot\\",
-      "BasePath": "_content/FlagRating",
-      "RelativePath": "img/Untitled.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Untitled.png"
     },
     {
       "Identity": "C:\\Users\\nervo\\Desktop\\FlagRatingProject\\FlagRating\\wwwroot\\img\\world.svg",

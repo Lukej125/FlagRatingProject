@@ -103,7 +103,7 @@ svg > path {
 }
 
 svg > path:hover {
-  fill: url(../img/countriesbg.png);
+  fill: purple;
   transition: 0.7s;
   cursor: pointer;
 }

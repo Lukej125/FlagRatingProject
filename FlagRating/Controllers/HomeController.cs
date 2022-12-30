@@ -3,16 +3,18 @@ using Microsoft.AspNetCore.Mvc;
 using FlagRating.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.EntityFrameworkCore;
 
 namespace FlagRating.Controllers;
-
 public class HomeController : Controller
 {
+    private MyContext _context;
     private readonly ILogger<HomeController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger, MyContext context)
     {
         _logger = logger;
+        _context = context;
     }
     [HttpGet("")]
     public IActionResult LandingPage()

@@ -31,7 +31,7 @@ public class User
     [Display(Name = "Confirm Password")]
     public string Confirm { get; set; }
     public List<Flag> RatedFlag { get; set; } = new List<Flag>();
-    // public List<Rating> Ratings { get; set; } = new List<Rating>();
+    public List<Rating> Ratings { get; set; } = new List<Rating>();
 
 }
 
